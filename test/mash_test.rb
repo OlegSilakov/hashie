@@ -3,7 +3,7 @@ require 'hashie'
 
 class HashieTest < MiniTest::Unit::TestCase
 
-	def mash_test_1
+	def test_mash_1
 		mash = Hashie::Mash.new
 		assert_equal false, mash.name?
 	end
