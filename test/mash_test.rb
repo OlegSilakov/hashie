@@ -13,4 +13,11 @@ class HashieTest < MiniTest::Unit::TestCase
 		assert_equal nil, mash.name
 	end
 
+	def test_mash_3
+		mash = Hashie::Mash.new
+		mash.name = "Michael Bleigh"
+		puts mash.to_s
+		assert_equal "Michael Bleigh", mash.name
+	end
+
 end
