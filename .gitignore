@@ -1,6 +1,8 @@
 # files
 *.lock
 *.DS_Store
+*.tags
+*.tags_sorted_by_file
 
 # folders
 coverage/
