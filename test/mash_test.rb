@@ -1,5 +1,4 @@
-require 'minitest/autorun'
-require 'hashie'
+require 'test_helper'
 
 class HashieTest < MiniTest::Unit::TestCase
 
