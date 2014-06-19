@@ -1,0 +1,6 @@
+# files
+*.lock
+*.DS_Store
+
+# folders
+coverage/
