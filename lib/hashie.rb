@@ -1,8 +1,8 @@
 require "hashie/version"
-# require "coveralls"
+require "coveralls"
 
 module Hashie
-	# Coveralls.wear!
+	Coveralls.wear!
 	autoload :Mash, 'hashie/mash'
   # Your code goes here...
 end

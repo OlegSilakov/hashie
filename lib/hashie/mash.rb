@@ -1,7 +1,11 @@
-class Mash < Hash
+module Hashie
 
-	def method_missing(meth, *args, &block)
-		false
+	class Mash < Hash
+
+		def method_missing(meth, *args, &block)
+			false
+		end
+
 	end
-
+	
 end
