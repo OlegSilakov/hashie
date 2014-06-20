@@ -19,4 +19,14 @@ class HashieTest < MiniTest::Unit::TestCase
 		assert_equal "Michael Bleigh", @mash.name
 	end
 
+	def test_mash_4
+		@mash.name = "My Mash"
+		assert_equal "<Hashie::Mash name=\"My Mash\">", @mash.inspect 
+	end
+
+	def test_mash_5
+		@mash.author!.name = "Michael Bleigh"
+		assert_equal "<Hashie::Mash name=\"Michael Bleigh\">", @mash.author.inspect
+	end
+
 end
